@@ -1,0 +1,225 @@
+.defaultlayout-wapper {
+  width: 100%;
+  height: 100%;
+  .sider-wapper {
+    width: 100%;
+  }
+}
+.user-info-wrapper {
+  .title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .avatar-wrapper {
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 50%;
+    .avatar-user {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .avatar-loading {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: rgb(207, 207, 207);
+      background: linear-gradient(
+        90deg,
+        hsl(210, 15%, 88%),
+        hsl(210, 15%, 95%),
+        hsl(210, 15%, 88%)
+      );
+      background-size: 200%;
+      animation: loader 1s infinite reverse;
+    }
+    .input-file {
+      display: none;
+    }
+    .upload-button {
+      position: absolute;
+      border: 1px solid rgb(202, 202, 202);
+      bottom: 0.25rem;
+      right: 0;
+      background-color: rgb(199, 199, 199, 0.9);
+      padding: 1rem;
+      border-radius: 50%;
+      color: white;
+      transition: all 0.1s linear;
+      &:hover {
+        color: rgb(86, 154, 231);
+        transform: scale(1.1);
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+}
+.sider-title {
+}
+.sider-logo {
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(77 92 106);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(77 92 106);
+  border-radius: 50%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+//user
+.logo-user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  .user-settings {
+    margin: 0 30px 0 20px;
+    height: fit-content;
+    cursor: pointer;
+    i {
+      font-size: 20px;
+      padding: 15px;
+    }
+    &:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+      transition: all 0.2s linear;
+    }
+  }
+}
+.logo-bell {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  .bell {
+    font-size: 22px;
+  }
+}
+
+.logo-username {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.language-flag {
+  width: 20px;
+  height: 10px;
+  object-fit: contain;
+  margin-right: 4px;
+}
+.ant-select-item-option-content {
+  display: flex;
+  align-items: center;
+}
+// item bell
+.wrapper-noti {
+  background-color: #fff;
+  padding: 0.5rem;
+  .noti-desc {
+    display: block;
+    text-align: center;
+    padding: 0.25rem 0 0;
+    font-size: 14px;
+  }
+}
+.item-bell {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 0.25rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  &.unread {
+    background-color: #e7e7e7;
+  }
+  &:hover {
+    border: 1px solid rgb(176, 176, 176);
+  }
+  .item-bell-icon {
+    background-color: #1890ff;
+    padding: 15px 20px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .item-bell-inf {
+    margin-left: 10px;
+    .item-bell-tittle {
+      text-align: left;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .item-bell-discription {
+      display: block;
+      word-wrap: break-word;
+    }
+    .item-bell-time {
+      text-align: left;
+      display: block;
+      font-size: 0.7rem;
+      color: #1890ff;
+      font-weight: 500;
+    }
+  }
+}
+
+@keyframes loader {
+  from {
+    background-position: -100% 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.change-pass-wrapper {
+  width: 80%;
+  margin: 3rem auto;
+}

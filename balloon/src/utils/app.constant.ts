@@ -1,0 +1,43 @@
+export class AppConstant {
+  public static PUBLISH_OPTION_PUBLIC = 1;
+  public static PUBLISH_OPTION_PRIVATE = 2;
+  public static STATUS_MEMBER_PASS = 1;
+  public static STATUS_MEMBER_PENDING = 2;
+  public static ROLE_ADMIN = 1;
+  public static ROLE_MEMBER = 2;
+  public static NOTIFICATION_TYPE_QUESTION = 1;
+  public static NOTIFICATION_TYPE_QUESTION_COMMENT = 2;
+  public static NOTIFICATION_TYPE_LESSON = 3;
+  public static NOTIFICATION_TYPE_LESSON_COMMENT = 4;
+  public static NOTIFICATION_TYPE_CANCEL_LESSON = 5;
+  public static NOTIFICATION_TYPE_POST_COMMENT = 6;
+  public static STATUS_NOTIFICATION_UNREAD = 0;
+  public static STATUS_NOTIFICATION_READ = 1;
+  public static NOTIFICATION_TYPE_POST = 1;
+
+  public static STATUS_CONFIRMED = 2;
+  public static STATUS_COMPLETED = 3;
+  public static TYPE_QUERY_STRING = 0;
+  public static TYPE_QUERY_JSON = 1;
+  public static TAG_REFERENCE_TYPE_DOCUMENT = 1;
+  public static TAG_REFERENCE_TYPE_QUESTION = 2;
+  public static TAG_REFERENCE_TYPE_FEEDBACK = 3;
+  public static FOLDER_UPLOAD_FILE = 'files';
+  public static FOLDER_UPLOAD_IMAGE = 'images';
+  public static OPERATION_IN = 'in';
+  public static OPERATION_NOT_IN = 'nin';
+  public static OPERATION_EQ = 'equal';
+  public static FORMAT_DATE = 'YYYY/MM/DD';
+  public static FORMAT_DATE_MONTH_YEAR = 'YYYY/MM';
+  public static AREA_QUANTITY_DEFAULT = 4;
+  public static NO_LOGIN = 0;
+  public static LOGGED = 1;
+  public static SPLIT_CHARACTERS = /[。？！．.!?]/;
+  public static SHEET_NOT_STAR = 0;
+  public static SHEET_STAR = 1;
+  public static TREE_QUANTITY_CALCULATOR = 4500;
+  public static DESC = 'DESC';
+  public static ASC = 'ASC';
+  public static LOGIN_NOT_REMEMBER = 0;
+  public static LOGIN_REMEMBER = 1;
+}

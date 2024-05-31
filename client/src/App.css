@@ -1,0 +1,42 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+}
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+  height: 8px;
+}
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+html *::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.embla {
+  overflow: hidden;
+  min-height: 150px;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
